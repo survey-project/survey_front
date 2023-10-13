@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="../css/result.css">
+  <title>설문결과</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+<header class="header">
+  <img class="logo", src="../img/image_2.png">
+  <h1>Chosun.servey</h1>
+  <nav>
+    <h3><a >로그아웃</a></h3>
+  </nav>
+</header>
+
+<div class="container">
+  <aside class="sidebar">
+    <li><a href="mainafter.html">설문 리스트</a></li>
+    <li><a href="make.html">설문 만들기</a></li>
+    <li><a class="home" href=myservey.html#">나의 설문</a></li>
+    <li><a href="mypage.html">마이페이지</a></li>
+  </aside>
+
+  <main>
+    <div id="chart">
+      <h2>[질문1]</h2>
+      <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
+    <div id="text">
+      <div class="que">
+      <h2>[질문4](장문형)</h2>
+      <h4>가장 좋아하는 동물은?</h4>
+    </div>
+    <table class="answer-table">
+      <caption>기안답</caption>
+      <tr>
+        <td>강아지</td>
+        <td>토끼</td>
+      </tr>
+      <tr>
+        <td>고양이</td>
+        <td>거북</td>
+      </tr>
+    </table>
+    </div>
+  </main>
+</div>
+
+<footer>
+  <p>&copy; 2023 Your Website</p>
+</footer>
+<script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['옵션1', '옵션2', '옵션3', '옵션4'],
+                datasets: [{
+                    label: 'My First Dataset',
+                    data: [250, 50, 100, 60],
+                    backgroundColor: [
+                        'rgb(255, 99, 132)',
+                        'rgb(54, 162, 235)',
+                        'rgb(255, 205, 86)',
+                        'rgb(255, 105, 80)'
+                    ],
+                    hoverOffset: 4
+                }]
+            },
+        });
+    </script>
+</body>
+</html>
