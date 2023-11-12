@@ -1,0 +1,53 @@
+#chart h2{
+    margin:30px auto;
+}
+
+#myChart{
+    max-width:400px;
+    max-height:300px;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+.que{
+    margin:30px auto;
+    border:1px solid black;
+    border-radius:5px;
+    width:60%;
+    background-color:#D9D9D9;
+}
+
+.que h2{
+    margin:10px auto;
+    align-item:center;
+}
+
+.que h4{
+    margin-left:10px;
+}
+
+caption{
+    caption-side: top;
+    text-align: left;
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:10px;
+}
+.answer-table{
+    width: 80%;
+    border-collapse: collapse;
+}
+
+.answer-table, th, td {
+    margin:auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+    margin-bottom:25px;
+}
+
+#chart, #text{
+    width:80%;
+    margin:30px auto;
+    border:1px solid black;
+}

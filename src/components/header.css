@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height:100%;
+}
+
+.header {
+    display: flex;
+    background: #D4E3EE;
+    color: black;
+    padding: 20px 30px;
+    height: 80px; /* 헤더의 높이를 80px로 고정 */
+    align-items: center;
+}
+nav {
+  display: flex;
+  margin-left: auto;
+}
+
+nav a{
+   padding:10px;
+   text-decoration: none;
+   color: inherit;
+   cursor: pointer;
+}
+
+.logo {
+    width: 80px; /* 원하는 너비로 조절 */
+    height: 80px; /* 높이 자동으로 조절 (비율 유지) */
+    margin-right: 40px; /* 로고 오른쪽 여백 조절 */
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px; /* 원하는 크기로 설정 (예: 36px) */
+
+}

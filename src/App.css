@@ -1,0 +1,8 @@
+.container{
+    display:flex;
+    min-height:100vh;
+}
+main{
+    min-width:100vh;
+    margin:40px auto;
+}

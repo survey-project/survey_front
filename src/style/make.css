@@ -1,0 +1,55 @@
+
+h2 {
+    text-align: center;
+    margin-right: 650px; /* 원하는 만큼의 마진을 설정 */
+}
+
+/* Add this CSS to your make.css file */
+.custom-box input[type="checkbox"] {
+    width: 16px; /* Adjust the width as needed */
+    height: 16px; /* Adjust the height as needed */
+}
+
+.option div{
+    display: inline-block; /* 내부 요소를 인라인 블록으로 설정 */
+    margin: 10px 0px; /* 내부 요소 사이의 간격 설정 (원하는 간격으로 조정) */
+
+}
+.custom-box select {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.custom-box {
+    position: relative;
+    border: 1px solid #000; /* 검정색 테두리 설정 */
+    padding: 5px 50px; /* 내부 여백 설정 */
+    max-width: 800px; /* 최대 너비 설정 */
+    margin: 20px auto; /* 가운데 정렬 */
+
+
+}
+.button-add{
+    display: block; /* 블록 레벨 요소로 변경 */
+    text-align: right; /* 오른쪽 정렬 */
+    margin: 10px 150px 20px 0; /* 위아래 간격과 오른쪽 간격 설정 */
+}
+
+.button-fin{
+    display: block; /* 블록 레벨 요소로 변경 */
+    text-align: right; /* 오른쪽 정렬 */
+    margin: 10px 150px 20px 0; /* 위아래 간격과 오른쪽 간격 설정 */
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* 테이블의 최대 너비 설정 */
+    margin: 20px auto; /* 가운데 정렬 */
+}
+
+.custom-table td {
+    border: 1px solid #000; /* 검정색 선을 추가합니다 */
+    padding: 10px;
+    text-align: center;
+}

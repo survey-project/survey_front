@@ -1,0 +1,140 @@
+
+
+.signup{
+    width: 80vh;
+    margin: 40px auto;
+}
+
+.signup h2{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    font-size:40px;
+    letter-spacing: 8px;
+    background: #D4E3EE;
+}
+
+#mypage-form{
+    width: 98%;
+    text-align: center;
+    padding: 10px;
+    border:1px solid black;
+}
+
+label {
+  font-size: 18px;
+  line-height: 2rem;
+  padding: 0.2em 0.4em;
+}
+
+[type="radio"], span {
+  vertical-align: middle;
+}
+
+[type="radio"] {
+  appearance: none;
+  border: max(2px, 0.1em) solid gray;
+  border-radius: 50%;
+  width: 1.25em;
+  height: 1.25em;
+  margin: 0;
+  margin-right: 5px;
+}
+
+[type="radio"]:checked {
+  border: 0.4em solid black;
+}
+
+[type="radio"]:focus-visible {
+  outline-offset: max(2px, 0.1em);
+  outline: max(2px, 0.1em) dotted tomato;
+}
+
+[type="radio"]:hover {
+  box-shadow: 0 0 0 max(4px, 0.2em) lightgray;
+  cursor: pointer;
+}
+
+[type="radio"]:hover + span {
+  cursor: pointer;
+}
+
+input{
+    width:55%;
+    height:40px;
+    margin-top:10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.gender {
+    padding: 15px 10px;
+}
+
+.gender input[type=radio]{
+    display: none;
+
+}
+.gender input[type=radio]+label{
+    display: inline-block;
+    cursor: pointer;
+    height: 24px;
+    width: 90px;
+    border: 1px solid #333;
+    line-height: 24px;
+    text-align: center;
+    font-weight:bold;
+    font-size:13px;
+}
+.gender input[type=radio]+label{
+    background-color: #fff;
+    color: #333;
+}
+.gender input[type=radio]:checked+label{
+    background-color: #333;
+    color: #fff;
+}
+
+.sort{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.dropdown1, .dropdown2 {
+    margin:0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown1 label, .dropdown2 label {
+  font-size:15px;
+  margin-right: 10px; /* 라벨과 셀렉트 박스 간격 조절 */
+}
+
+.dropdown1 select, .dropdown2 select {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#re{
+    background-color: #bad3e6;
+    color: black;
+    padding: 8px 30px;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 5px;
+    width: 150px;
+}
+#myexit{
+    background:#8B0000;
+    color:white;
+    width:70px;
+    padding:5px;
+    font-size:15px;
+    border-style: none;
+    margin-top:5px;
+}

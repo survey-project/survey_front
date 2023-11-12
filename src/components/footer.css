@@ -1,0 +1,8 @@
+footer {
+    background: #D4E3EE;
+    color: white;
+    text-align: left;
+    padding: 10px 0;
+    height: 60px; /* 푸터의 높이를 60px로 고정 */
+    text-align: center;
+}

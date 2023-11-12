@@ -1,0 +1,25 @@
+
+.sidebar {
+    width: 30vh;
+    background: #bad3e6;
+    padding: 20px;
+    box-sizing:border-box ;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li a:hover {
+    background: #0C578E;
+    color: white;
+}
