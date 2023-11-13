@@ -19,15 +19,6 @@ function Login ()  {
   const [grade, setGrade] = useState('1');
   const [birthdate, setBirthdate] = useState('');
 
-  const [departments, setDepartments] = useState([]);//학과 목록
-
-  //학과목록 불러오기
-  useEffect(() => {
-    axios.get('/api/departments')
-      .then(response => setDepartments(response.data.departments))
-      .catch(error => console.error('학과 목록을 불러오는 중 오류 발생:', error));
-  }, []);
-
   //현재 날짜를 가져와서 설정
   useEffect(() => {
     const currentDate = new Date().toISOString().split('T')[0];
@@ -128,13 +119,11 @@ function Login ()  {
             name="department"
             id="depart"
             value={department}
-            onChange={(e) => setDepartments(e.target.value)}
-          >
-            {departments.map(dep => (
-              <option key={dep.id} value={dep.name}>
-                {dep.name}
-              </option>
-            ))}
+            onChange={(e) => setDepartment(e.target.value)}>
+              <option value="com">컴퓨터공학과</option>
+              <option value="elec">전자공학부</option>
+              <option value="commu">정보통신공학부</option>
+              <option value="ai">인공지능공학과</option>
           </select>
           </div>
           <div className="major">
