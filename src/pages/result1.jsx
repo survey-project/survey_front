@@ -28,15 +28,14 @@ function Result1(){
                 <Sidebar />
                 <main>
                     <div className="btn-group">
-                        <a href="/result1" className="btn">만든설문</a>
-                        <a href="/mysurvey" className="btn">작성한설문</a>
-                        <h2>만든설문</h2>
+                        <a href="/result1" id="btn">만든설문 </a>
+                        <a href="/mysurvey" id="btn1">작성한설문</a>
                     </div>
                         <table className="custom-table">
                             <tr>
                                 <th>번호</th>
                                 <th>제목</th>
-                                <td>통계</td>
+                                <th>통계</th>
                                 <th>등록자</th>
                                 <th>등록일자</th>
                                 <th>마감일</th>
