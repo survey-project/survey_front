@@ -33,12 +33,11 @@ function Mysurvey(){
       <div className="container">
         <Sidebar />
         <main>
-            <div class="btn-group">
-            <a href="/result1" class="btn">만든설문</a>
-            <a href="/mysurvey" class="btn">작성한설문</a>
-                <h2>작성한설문</h2>
+            <div className="btn-group">
+              <a href="/result1" id="btn1">만든설문</a>
+              <a href="/mysurvey" id="btn">작성한설문</a>
             </div>
-            <table class = "custom-table">
+            <table className = "custom-table">
             <tr>
                 <td>번호</td>
                 <td>제목</td>
